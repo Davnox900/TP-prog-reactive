@@ -1,0 +1,4 @@
+<div>Pays:<input #Input type="text"></div>
+<ul>
+    <li *ngFor="let country of currentCountries" (click)="selectCountry($event)">{{country.libelle}}</li>
+</ul>
